@@ -1,22 +1,4 @@
-# 骁龙835(MSM8998)的EDK2 UEFI固件
 
-**在编译该项目前，请确定你有一定的Linux常识，以下步骤已经是最简单的方法，如果你看不懂，那么请使用Releases中的编译成品**
-
-## 资源
-
-[Telegram英语交流群](https://t.me/joinchat/MNjTmBqHIokjweeN0SpoyA)
-
-[Discord英语交流群](https://discord.gg/XXBWfag)
-
-QQ中文交流群: 
-
-主群：697666196 (已满，人数小于1900后开放)  
-二群：996450026        
-摸鱼专用群：737223105（需具有一定知识储备并正确回答入群问题）     
-情感交流群：991796138（仅限邀请）       
-核心管理群：766060878（暂不开放）
-
-[项目官网](https://renegade-project.org/)
 
 [项目论坛](https://forum.renegade-project.org/)
 
