@@ -16,16 +16,106 @@
 #
 ################################################################################
 
-!include MSM8998Pkg/CommonDsc.dsc.inc
+!include MSM8956Pkg/CommonDsc.dsc.inc
 
 [LibraryClasses.common]
   ArmLib|ArmPkg/Library/ArmLib/ArmBaseLib.inf
-  ArmPlatformLib|MSM8998Pkg/Library/msm8998Lib/msm8998Lib.inf
+  ArmPlatformLib|MSM8956Pkg/Library/msm8956Lib/msm8956Lib.inf
   CompilerIntrinsicsLib|ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
   CapsuleLib|MdeModulePkg/Library/DxeCapsuleLibNull/DxeCapsuleLibNull.inf
   UefiBootManagerLib|MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib.inf
   PlatformBootManagerLib|ArmPkg/Library/PlatformBootManagerLib/PlatformBootManagerLib.inf
   CustomizedDisplayLib|MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib.inf
+  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
+  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
+  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
+  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
+  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
+  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
+  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
+  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
+  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
+  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
+  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
+  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
+  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
+  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
+  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
+  ConsoleOutDevice
+[LibraryClasses.debug]
+  DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
+[Components.common]
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg
+[Components.debug]
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/ArmLib.inf
+  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
+  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
+  ArmPkg/Library/ArmLib/
+
 
   # UiApp dependencies
   ReportStatusCodeLib|MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib.inf
