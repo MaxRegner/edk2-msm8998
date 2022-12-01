@@ -16,118 +16,22 @@
 #
 ################################################################################
 
-!include MSM8956Pkg/CommonDsc.dsc.inc
+!include MSM8998Pkg/CommonDsc.dsc.inc
 
 [LibraryClasses.common]
   ArmLib|ArmPkg/Library/ArmLib/ArmBaseLib.inf
-  ArmPlatformLib|MSM8956Pkg/Library/msm8956Lib/msm8956Lib.inf
+  ArmPlatformLib|MSM8998Pkg/Library/msm8998Lib/msm8998Lib.inf
   CompilerIntrinsicsLib|ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
   CapsuleLib|MdeModulePkg/Library/DxeCapsuleLibNull/DxeCapsuleLibNull.inf
   UefiBootManagerLib|MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib.inf
   PlatformBootManagerLib|ArmPkg/Library/PlatformBootManagerLib/PlatformBootManagerLib.inf
   CustomizedDisplayLib|MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib.inf
-  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
-  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
-  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
-  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
-  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
-  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
-  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
-  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
-  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
-  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
-  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
-  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
-  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
-  ConsoleOutDeviceLib|MdeModulePkg/Library/UefiConsoleOutDeviceLibConSplitter/UefiConsoleOutDeviceLibConSplitter.inf
-  ConsoleInDeviceLib|MdeModulePkg/Library/UefiConsoleInDeviceLibConSplitter/UefiConsoleInDeviceLibConSplitter.inf
-  ConsoleOutDevice
-[LibraryClasses.debug]
-  DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
-[Components.common]
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg
-[Components.debug]
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/ArmLib.inf
-  ArmPkg/Library/ArmPlatformLib/ArmPlatformLib.inf
-  ArmPkg/Library/ArmBaseLib/ArmBaseLib.inf
-  ArmPkg/Library/ArmLib/
-
 
   # UiApp dependencies
   ReportStatusCodeLib|MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib.inf
   FileExplorerLib|MdeModulePkg/Library/FileExplorerLib/FileExplorerLib.inf
   DxeServicesLib|MdePkg/Library/DxeServicesLib/DxeServicesLib.inf
   BootLogoLib|MdeModulePkg/Library/BootLogoLib/BootLogoLib.inf
-
-!if $(TARGET) != RELEASE
-  SerialPortLib|MSM8998Pkg/Library/InMemorySerialPortLib/InMemorySerialPortLib.inf
-!else
-  SerialPortLib|MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull.inf
-!endif
 
   RealTimeClockLib|EmbeddedPkg/Library/VirtualRealTimeClockLib/VirtualRealTimeClockLib.inf
   TimeBaseLib|EmbeddedPkg/Library/TimeBaseLib/TimeBaseLib.inf
@@ -151,9 +55,7 @@
   # SimpleFbDxe
   FrameBufferBltLib|MdeModulePkg/Library/FrameBufferBltLib/FrameBufferBltLib.inf
 
-!if $(TARGET) != RELEASE
   SerialPortLib|MSM8998Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib.inf
-!endif
 
   PlatformBootManagerLib|MSM8998Pkg/Library/PlatformBootManagerLib/PlatformBootManagerLib.inf
   MemoryInitPeiLib|MSM8998Pkg/Library/MemoryInitPeiLib/PeiMemoryAllocationLib.inf
@@ -186,15 +88,12 @@
 
   gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVersionString|L"Alpha"
 
+  gSimpleInitTokenSpaceGuid.PcdDeviceTreeStore|0xE0000000
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
 
   # We bring up eight cores here!
   gArmPlatformTokenSpaceGuid.PcdCoreCount|8
   gArmPlatformTokenSpaceGuid.PcdClusterCount|2
-
-  #
-  # ARM PrimeCell
-  #
 
   #
   # ARM General Interrupt Controller
@@ -391,3 +290,9 @@
 !ifdef $(INCLUDE_TFTP_COMMAND)
   ShellPkg/DynamicCommand/TftpDynamicCommand/TftpDynamicCommand.inf
 !endif #$(INCLUDE_TFTP_COMMAND)
+
+  MSM8998Pkg/Binary/LinuxSimpleMassStorage/LinuxSimpleMassStorage.inf
+
+[BuildOptions.common]
+  # FIXME: msm8998 doesn't support lse instructions, however build fails without it
+  GCC:*_*_AARCH64_CC_FLAGS = -Wno-unused-variable -march=armv8-a+lse -moutline-atomics -mtune=cortex-a73.cortex-a53 -DENABLE_LINUX_SIMPLE_MASS_STORAGE
